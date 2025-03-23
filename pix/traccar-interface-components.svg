@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Browser Window -->
+  <rect x="50" y="50" width="700" height="500" rx="5" ry="5" fill="white" stroke="#dee2e6" stroke-width="2" />
+  
+  <!-- Browser Toolbar -->
+  <rect x="50" y="50" width="700" height="30" rx="5" ry="5" fill="#f1f3f5" stroke="#dee2e6" stroke-width="2" />
+  <circle cx="70" cy="65" r="5" fill="#fa5252" />
+  <circle cx="90" cy="65" r="5" fill="#fd7e14" />
+  <circle cx="110" cy="65" r="5" fill="#40c057" />
+  <rect x="140" y="57" width="560" height="16" rx="8" ry="8" fill="white" stroke="#ced4da" stroke-width="1" />
+  <text x="160" y="70" font-family="Arial" font-size="12" fill="#495057">https://rastreo.infraestructuragis.com</text>
+  
+  <!-- Traccar Interface: Top Bar -->
+  <rect x="50" y="80" width="700" height="40" fill="#222e3c" />
+  <text x="70" y="105" font-family="Arial" font-weight="bold" font-size="16" fill="white">Traccar</text>
+  
+  <!-- User Menu -->
+  <circle cx="720" cy="100" r="15" fill="#4d6082" />
+  <text x="718" y="105" font-family="Arial" font-weight="bold" font-size="16" fill="white">A</text>
+  
+  <!-- Left Panel: Device List -->
+  <rect x="50" y="120" width="200" height="430" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" />
+  <rect x="50" y="120" width="200" height="40" fill="#e9ecef" />
+  <text x="65" y="145" font-family="Arial" font-weight="bold" font-size="14" fill="#212529">Dispositivos</text>
+  
+  <!-- Device Items -->
+  <rect x="60" y="170" width="180" height="40" rx="3" ry="3" fill="white" stroke="#dee2e6" stroke-width="1" />
+  <circle cx="80" cy="190" r="8" fill="#228be6" />
+  <text x="100" y="195" font-family="Arial" font-size="14" fill="#212529">Automóvil 1</text>
+  
+  <rect x="60" y="220" width="180" height="40" rx="3" ry="3" fill="white" stroke="#dee2e6" stroke-width="1" />
+  <circle cx="80" cy="240" r="8" fill="#fd7e14" />
+  <text x="100" y="245" font-family="Arial" font-size="14" fill="#212529">Smartphone</text>
+  
+  <rect x="60" y="270" width="180" height="40" rx="3" ry="3" fill="white" stroke="#dee2e6" stroke-width="1" />
+  <circle cx="80" cy="290" r="8" fill="#40c057" />
+  <text x="100" y="295" font-family="Arial" font-size="14" fill="#212529">Camión 3</text>
+  
+  <!-- Main Map Area -->
+  <rect x="250" y="120" width="500" height="430" fill="#e9ecef" />
+  
+  <!-- Map Content -->
+  <rect x="250" y="120" width="500" height="430" fill="#cfd8dc" />
+  
+  <!-- Roads -->
+  <path d="M 300 150 L 450 200 L 600 250 L 700 400" stroke="#90a4ae" stroke-width="5" fill="none" />
+  <path d="M 350 400 L 450 300 L 550 350 L 700 280" stroke="#90a4ae" stroke-width="5" fill="none" />
+  <path d="M 250 350 L 350 320 L 500 450 L 650 480" stroke="#90a4ae" stroke-width="5" fill="none" />
+  
+  <!-- Vehicle Markers -->
+  <circle cx="450" cy="200" r="8" fill="#228be6" stroke="white" stroke-width="2" />
+  <circle cx="550" cy="350" r="8" fill="#fd7e14" stroke="white" stroke-width="2" />
+  <circle cx="500" cy="450" r="8" fill="#40c057" stroke="white" stroke-width="2" />
+  
+  <!-- Map Controls -->
+  <rect x="700" y="130" width="40" height="80" rx="3" ry="3" fill="white" stroke="#dee2e6" stroke-width="1" />
+  <text x="715" y="155" font-family="Arial" font-weight="bold" font-size="20" fill="#212529">+</text>
+  <line x1="705" y1="170" x2="735" y2="170" stroke="#dee2e6" stroke-width="1" />
+  <text x="717" y="195" font-family="Arial" font-weight="bold" font-size="20" fill="#212529">−</text>
+  
+  <!-- Bottom Status Bar -->
+  <rect x="250" y="520" width="500" height="30" fill="rgba(255,255,255,0.7)" />
+  <text x="260" y="540" font-family="Arial" font-size="12" fill="#495057">Última actualización: 22/03/2025 23:10:45</text>
+  
+  <!-- Info Panel -->
+  <rect x="550" y="150" width="180" height="120" rx="3" ry="3" fill="white" stroke="#dee2e6" stroke-width="1" />
+  <rect x="550" y="150" width="180" height="30" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" />
+  <text x="560" y="170" font-family="Arial" font-weight="bold" font-size="12" fill="#212529">Smartphone</text>
+  
+  <text x="560" y="200" font-family="Arial" font-size="12" fill="#495057">Velocidad: 45 km/h</text>
+  <text x="560" y="220" font-family="Arial" font-size="12" fill="#495057">Dirección: NE</text>
+  <text x="560" y="240" font-family="Arial" font-size="12" fill="#495057">Batería: 68%</text>
+  <text x="560" y="260" font-family="Arial" font-size="12" fill="#495057">Conexión: Online</text>
+</svg>

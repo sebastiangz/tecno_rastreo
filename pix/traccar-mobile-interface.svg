@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 800">
+  <!-- Phone Background -->
+  <rect width="400" height="800" fill="#f8f9fa" />
+  
+  <!-- Phone Frame -->
+  <rect x="50" y="50" width="300" height="600" rx="20" ry="20" fill="#212529" />
+  <rect x="60" y="80" width="280" height="520" rx="5" ry="5" fill="white" />
+  
+  <!-- Phone Top Bar -->
+  <rect x="130" y="60" width="140" height="10" rx="5" ry="5" fill="#343a40" />
+  
+  <!-- Phone Bottom Button -->
+  <circle cx="200" cy="630" r="20" fill="white" stroke="#dee2e6" stroke-width="2" />
+  
+  <!-- App Status Bar -->
+  <rect x="60" y="80" width="280" height="30" fill="#228be6" />
+  <text x="75" y="100" font-family="Arial" font-weight="bold" font-size="14" fill="white">Traccar Client</text>
+  <rect x="290" y="85" width="40" height="20" rx="10" ry="10" fill="#40c057" />
+  <text x="298" y="100" font-family="Arial" font-weight="bold" font-size="12" fill="white">ON</text>
+  
+  <!-- App Settings Form -->
+  <rect x="70" y="120" width="260" height="470" fill="white" />
+  
+  <!-- Server URL Setting -->
+  <text x="80" y="140" font-family="Arial" font-weight="bold" font-size="14" fill="#212529">URL del servidor</text>
+  <rect x="80" y="150" width="240" height="40" rx="5" ry="5" fill="#f1f3f5" stroke="#ced4da" stroke-width="1" />
+  <text x="90" y="175" font-family="Arial" font-size="13" fill="#495057">https://rastreo.infraestructuragis.com</text>
+  
+  <!-- Device Identifier Setting -->
+  <text x="80" y="210" font-family="Arial" font-weight="bold" font-size="14" fill="#212529">ID del dispositivo</text>
+  <rect x="80" y="220" width="240" height="40" rx="5" ry="5" fill="#f1f3f5" stroke="#ced4da" stroke-width="1" />
+  <text x="90" y="245" font-family="Arial" font-size="13" fill="#495057">smartphone-sgonzalez</text>
+  
+  <!-- Frequency Setting -->
+  <text x="80" y="280" font-family="Arial" font-weight="bold" font-size="14" fill="#212529">Frecuencia (seg)</text>
+  <rect x="80" y="290" width="240" height="40" rx="5" ry="5" fill="#f1f3f5" stroke="#ced4da" stroke-width="1" />
+  <text x="90" y="315" font-family="Arial" font-size="13" fill="#495057">60</text>
+  
+  <!-- Distance Setting -->
+  <text x="80" y="350" font-family="Arial" font-weight="bold" font-size="14" fill="#212529">Distancia (m)</text>
+  <rect x="80" y="360" width="240" height="40" rx="5" ry="5" fill="#f1f3f5" stroke="#ced4da" stroke-width="1" />
+  <text x="90" y="385" font-family="Arial" font-size="13" fill="#495057">50</text>
+  
+  <!-- Angle Setting -->
+  <text x="80" y="420" font-family="Arial" font-weight="bold" font-size="14" fill="#212529">Ángulo (grados)</text>
+  <rect x="80" y="430" width="240" height="40" rx="5" ry="5" fill="#f1f3f5" stroke="#ced4da" stroke-width="1" />
+  <text x="90" y="455" font-family="Arial" font-size="13" fill="#495057">15</text>
+  
+  <!-- Settings checkboxes -->
+  <rect x="80" y="490" width="20" height="20" rx="3" ry="3" fill="white" stroke="#228be6" stroke-width="2" />
+  <text x="110" y="505" font-family="Arial" font-size="13" fill="#212529">Iniciar al encender</text>
+  <rect x="83" y="493" width="14" height="14" fill="#228be6" />
+  
+  <rect x="80" y="520" width="20" height="20" rx="3" ry="3" fill="white" stroke="#228be6" stroke-width="2" />
+  <text x="110" y="535" font-family="Arial" font-size="13" fill="#212529">Solo en movimiento</text>
+  <rect x="83" y="523" width="14" height="14" fill="#228be6" />
+  
+  <!-- Status footer -->
+  <rect x="70" y="600" width="260" height="50" fill="#f1f3f5" stroke="#dee2e6" stroke-width="1" />
+  <circle cx="90" cy="625" r="10" fill="#40c057" />
+  <text x="110" y="630" font-family="Arial" font-size="14" fill="#212529">En ejecución</text>
+  <text x="110" y="645" font-family="Arial" font-size="12" fill="#495057">Última actualización: 23:10</text>
+  
+  <!-- Start/Stop button -->
